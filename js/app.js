@@ -695,3 +695,69 @@
 // } else {
 //   alert("Superstar emassiz!");
 // }
+
+
+
+
+// let num = +prompt("1 dan 999 gacha son kiriting:")
+
+
+// if(isNaN(num) ||num < 1 || num > 999){
+//     alert("Xatolik!");
+// }else{
+// let yuz = Math.floor(num / 100);
+// let on = Math.floor((num % 100) / 10);
+// let bir = num % 10;
+
+
+// let yuzlik = "";
+// let onlik = "";
+// let birlik = "";
+// switch (yuz) {
+//   case 1: yuzlik = "bir yuz"; break;
+//   case 2: yuzlik = "ikki yuz"; break;
+//   case 3: yuzlik = "uch yuz"; break;
+//   case 4: yuzlik = "to'rt yuz"; break;
+//   case 5: yuzlik = "besh yuz"; break;
+//   case 6: yuzlik = "olti yuz"; break;
+//   case 7: yuzlik = "yetti yuz"; break;
+//   case 8: yuzlik = "sakkiz yuz"; break;
+//   case 9: yuzlik = "to'qqiz yuz"; break;
+// }
+
+//  switch (on) {
+//     case 1: onlik = "o'n"; break;
+//     case 2: onlik = "yigirma"; break;
+//     case 3: onlik = "o‘ttiz"; break;
+//     case 4: onlik = "qirq"; break;
+//     case 5: onlik = "ellik"; break;
+//     case 6: onlik = "oltmish"; break;
+//     case 7: onlik = "yetmish"; break;
+//     case 8: onlik = "sakson"; break;
+//     case 9: onlik = "to‘qson"; break;
+//   }
+
+// switch (bir) {
+//     case 1: birlik = "bir"; break;
+//     case 2: birlik = "ikki"; break;
+//     case 3: birlik = "uch"; break;
+//     case 4: birlik = "to‘rt"; break;
+//     case 5: birlik = "besh"; break;
+//     case 6: birlik = "olti"; break;
+//     case 7: birlik = "yetti"; break;
+//     case 8: birlik = "sakkiz"; break;
+//     case 9: birlik = "to‘qqiz"; break;
+//   }
+//   console.log(`${yuzlik} ${onlik} ${birlik}`);
+// }
+let shart = true;
+let idish = 0;
+let sanoq = 0;
+while(shart){
+    idish = idish + + prompt("son kititing:")
+    sanoq = sanoq + 1;
+    if (sanoq === 4){
+        shart = false
+    }
+}
+console.log(idish)
